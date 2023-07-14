@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+
+.container1 {
+  width: 100%;
+  min-height: 100vh;
+ 
+
+  background-image: linear-gradient(
+    to right top,
+    #422034,
+    #4a253c,
+    #512a45,
+    #592f4e,
+    #603458,
+    #5d3357,
+    #593356,
+    #563255,
+    #482b49,
+    #3b253d,
+    #2f1e31,
+    #231825
+  );
+
+  padding: 10px;
+}
+.box1 {
+  max-width: 500px;
+
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #bc639a,
+    #a75b8f,
+    #925283,
+    #7f4a77,
+    #834977,
+    #874876,
+    #8b4775,
+    #a84c7c,
+    #c4517f,
+    #e0577e,
+    #fb5f7a
+  );
+
+  border: 1px solid rgb(127, 133, 127);
+  -webkit-box-shadow: 1px 5px 31px 2px rgba(62, 137, 187, 0.78);
+  -moz-box-shadow: 1px 5px 31px 2px rgba(43, 47, 48, 0.78);
+  box-shadow: 1px 5px 31px 2px rgba(73, 136, 179, 0.78);
+  transition: 1s;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.author {
+  margin: 10px;
+  text-align: right;
+  font-size: 25px;
+  font-style: italic;
+  font-family: cursive;
+  color: #021225;
+}
+
+.nextbtn {
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 30%;
+  margin-top: 5px auto;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(88, 19, 57),
+    #ffedbca8
+  );
+  -webkit-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  -moz-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  transition: 1s;
+}
+.nextbtn:hover {
+  background: rgb(104, 197, 209);
+  color: black;
+  transform: scale(1.08);
+}
+
+.quotes {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+.box .fa-solid {
+  color: white;
+  font-size: 25px;
+}
+hr {
+  background: #1c8391;
+  height: 2px;
+  border: 0;
+  margin: 10px auto;
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .box {
+    max-width: 100%;
+    margin: 50px auto 20px;
+    padding: 20px;
+  }
+
+  .nextbtn {
+    width: 50%;
+  }
+}
